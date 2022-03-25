@@ -2,7 +2,10 @@
 /*font-family = "Raleway"*/
 
 body{
-    background-color:#E8DAB2
+    background-color:#E8DAB2;
+        padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 80px;
 }
 
 header{
@@ -42,8 +45,8 @@ section{
     background-color: white;
     padding: 34px 24px 10px 24px;
     border-radius: 5%;
-    position: absolute ;
-    left: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 
 }
 
